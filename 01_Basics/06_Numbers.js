@@ -39,5 +39,3 @@ const num2 = new Number(400)
 // let max =6
 // random_number=Math.floor(Math.random()* (max - min +1) + min )
 // console.log(random_number);
-
-
