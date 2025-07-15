@@ -30,5 +30,14 @@ demoObject = {...InstaUser , ...facebookUser}
 
 // console.log(demoObject);
 
-console.log(InstaUser.hasOwnProperty("isLoggedin"));
+// console.log(InstaUser.hasOwnProperty("isLoggedin"));
 
+const Course = {CourseName:"Python",
+    CourseDuration:"1 month",
+    CourseFees:"15k",
+    CourseLevel:"Basics to Advance",
+    CourseInstructor :"Alex"
+}
+
+const {CourseName : Name } = Course
+console.log(Name);
